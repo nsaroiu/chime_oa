@@ -17,7 +17,7 @@ type OptionType = {
 }
 
 // const url = "/api/front-end-task/";
-const url = "https://chimeclinic.com/front-end-task/";
+const url = "/api/front-end-task/";
 
 const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState<DataItem | null>(null);
